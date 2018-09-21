@@ -1,0 +1,6 @@
+framework module Pods_GlendaleHackathon {
+  umbrella header "Pods-GlendaleHackathon-umbrella.h"
+
+  export *
+  module * { export * }
+}

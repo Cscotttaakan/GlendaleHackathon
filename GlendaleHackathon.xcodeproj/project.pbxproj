@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1728222E6DB7E2A4B36356 /* Pods_GlendaleHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59590C6406A3D0298E129B70 /* Pods_GlendaleHackathon.framework */; };
 		E1A333B02155565100F0A639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A333AF2155565100F0A639 /* AppDelegate.swift */; };
-		E1A333B22155565100F0A639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A333B12155565100F0A639 /* ViewController.swift */; };
 		E1A333B52155565100F0A639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A333B32155565100F0A639 /* Main.storyboard */; };
 		E1A333B72155565400F0A639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A333B62155565400F0A639 /* Assets.xcassets */; };
 		E1A333BA2155565400F0A639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A333B82155565400F0A639 /* LaunchScreen.storyboard */; };
+		E1A333C42155612400F0A639 /* GlendaleMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A333C32155612400F0A639 /* GlendaleMainViewController.swift */; };
+		E1A333C6215563E600F0A639 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A333C5215563E600F0A639 /* ContactUsViewController.swift */; };
+		E1A333C82155640500F0A639 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A333C72155640500F0A639 /* EventsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		130C50D80DC37D0A4B2F6BFF /* Pods-GlendaleHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlendaleHackathon.release.xcconfig"; path = "Target Support Files/Pods-GlendaleHackathon/Pods-GlendaleHackathon.release.xcconfig"; sourceTree = "<group>"; };
+		2E26DC17D6184C5EA2D3F31D /* Pods-GlendaleHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlendaleHackathon.debug.xcconfig"; path = "Target Support Files/Pods-GlendaleHackathon/Pods-GlendaleHackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		59590C6406A3D0298E129B70 /* Pods_GlendaleHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlendaleHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A333AC2155565100F0A639 /* GlendaleHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlendaleHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A333AF2155565100F0A639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1A333B12155565100F0A639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1A333B42155565100F0A639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1A333B62155565400F0A639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A333B92155565400F0A639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A333BB2155565400F0A639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A333C32155612400F0A639 /* GlendaleMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlendaleMainViewController.swift; sourceTree = "<group>"; };
+		E1A333C5215563E600F0A639 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		E1A333C72155640500F0A639 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1728222E6DB7E2A4B36356 /* Pods_GlendaleHackathon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		161FB35BE735FB3778DD4A43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E26DC17D6184C5EA2D3F31D /* Pods-GlendaleHackathon.debug.xcconfig */,
+				130C50D80DC37D0A4B2F6BFF /* Pods-GlendaleHackathon.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A817BAA7838FE1F5AD83D34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59590C6406A3D0298E129B70 /* Pods_GlendaleHackathon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1A333A32155565100F0A639 = {
 			isa = PBXGroup;
 			children = (
 				E1A333AE2155565100F0A639 /* GlendaleHackathon */,
 				E1A333AD2155565100F0A639 /* Products */,
+				161FB35BE735FB3778DD4A43 /* Pods */,
+				4A817BAA7838FE1F5AD83D34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +83,11 @@
 		E1A333AE2155565100F0A639 /* GlendaleHackathon */ = {
 			isa = PBXGroup;
 			children = (
+				E1A333C72155640500F0A639 /* EventsViewController.swift */,
+				E1A333C5215563E600F0A639 /* ContactUsViewController.swift */,
 				E1A333AF2155565100F0A639 /* AppDelegate.swift */,
-				E1A333B12155565100F0A639 /* ViewController.swift */,
 				E1A333B32155565100F0A639 /* Main.storyboard */,
+				E1A333C32155612400F0A639 /* GlendaleMainViewController.swift */,
 				E1A333B62155565400F0A639 /* Assets.xcassets */,
 				E1A333B82155565400F0A639 /* LaunchScreen.storyboard */,
 				E1A333BB2155565400F0A639 /* Info.plist */,
@@ -71,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A333BE2155565400F0A639 /* Build configuration list for PBXNativeTarget "GlendaleHackathon" */;
 			buildPhases = (
+				5D6212169735A00F646FD015 /* [CP] Check Pods Manifest.lock */,
 				E1A333A82155565100F0A639 /* Sources */,
 				E1A333A92155565100F0A639 /* Frameworks */,
 				E1A333AA2155565100F0A639 /* Resources */,
+				07D834C872564819D775C2F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +163,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07D834C872564819D775C2F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GlendaleHackathon/Pods-GlendaleHackathon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GlendaleHackathon/Pods-GlendaleHackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D6212169735A00F646FD015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlendaleHackathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1A333A82155565100F0A639 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A333B22155565100F0A639 /* ViewController.swift in Sources */,
 				E1A333B02155565100F0A639 /* AppDelegate.swift in Sources */,
+				E1A333C82155640500F0A639 /* EventsViewController.swift in Sources */,
+				E1A333C42155612400F0A639 /* GlendaleMainViewController.swift in Sources */,
+				E1A333C6215563E600F0A639 /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +364,13 @@
 		};
 		E1A333BF2155565400F0A639 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E26DC17D6184C5EA2D3F31D /* Pods-GlendaleHackathon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54CWFH9J2G;
 				INFOPLIST_FILE = GlendaleHackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +384,13 @@
 		};
 		E1A333C02155565400F0A639 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130C50D80DC37D0A4B2F6BFF /* Pods-GlendaleHackathon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54CWFH9J2G;
 				INFOPLIST_FILE = GlendaleHackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
