@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlendaleHackathon/Controller/GlendaleMainViewController.swift"
+            timestampString = "559254380.091819"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlendaleHackathon.GlendaleMainViewController.updateUI() -&gt; ()"
+                  moduleName = "GlendaleHackathon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/craigscott/Desktop/GlendaleHackathon/GlendaleHackathon/Controller/GlendaleMainViewController.swift"
+                  timestampString = "559249641.606286"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in GlendaleHackathon.GlendaleMainViewController.updateUI() -&gt; ()"
+                  moduleName = "GlendaleHackathon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/craigscott/Desktop/GlendaleHackathon/GlendaleHackathon/Controller/GlendaleMainViewController.swift"
+                  timestampString = "559249641.616415"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlendaleHackathon/Controller/GlendaleMainViewController.swift"
+            timestampString = "559254380.092206"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlendaleHackathon.GlendaleMainViewController.updateUI() -&gt; ()"
+                  moduleName = "GlendaleHackathon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/craigscott/Desktop/GlendaleHackathon/GlendaleHackathon/Controller/GlendaleMainViewController.swift"
+                  timestampString = "559249828.527961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in GlendaleHackathon.GlendaleMainViewController.updateUI() -&gt; ()"
+                  moduleName = "GlendaleHackathon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/craigscott/Desktop/GlendaleHackathon/GlendaleHackathon/Controller/GlendaleMainViewController.swift"
+                  timestampString = "559249828.531453"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlendaleHackathon/Controller/GlendaleMainViewController.swift"
+            timestampString = "559254380.092334"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

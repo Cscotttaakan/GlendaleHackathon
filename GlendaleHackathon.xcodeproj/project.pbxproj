@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8D1728222E6DB7E2A4B36356 /* Pods_GlendaleHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59590C6406A3D0298E129B70 /* Pods_GlendaleHackathon.framework */; };
+		E179160B215572D40028E8A4 /* PSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E179160A215572D40028E8A4 /* PSA.swift */; };
+		E179160E215574100028E8A4 /* Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = E179160D215574100028E8A4 /* Extra.swift */; };
+		E179161021557D3E0028E8A4 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E179160F21557D3E0028E8A4 /* EventsCell.swift */; };
+		E17916122155816F0028E8A4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17916112155816F0028E8A4 /* Event.swift */; };
 		E1A333B02155565100F0A639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A333AF2155565100F0A639 /* AppDelegate.swift */; };
 		E1A333B52155565100F0A639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A333B32155565100F0A639 /* Main.storyboard */; };
 		E1A333B72155565400F0A639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A333B62155565400F0A639 /* Assets.xcassets */; };
@@ -21,6 +25,10 @@
 		130C50D80DC37D0A4B2F6BFF /* Pods-GlendaleHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlendaleHackathon.release.xcconfig"; path = "Target Support Files/Pods-GlendaleHackathon/Pods-GlendaleHackathon.release.xcconfig"; sourceTree = "<group>"; };
 		2E26DC17D6184C5EA2D3F31D /* Pods-GlendaleHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlendaleHackathon.debug.xcconfig"; path = "Target Support Files/Pods-GlendaleHackathon/Pods-GlendaleHackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		59590C6406A3D0298E129B70 /* Pods_GlendaleHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlendaleHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E179160A215572D40028E8A4 /* PSA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSA.swift; sourceTree = "<group>"; };
+		E179160D215574100028E8A4 /* Extra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extra.swift; path = ../../../WeatherAppV2/WeatherAppV2/Extras/Extra.swift; sourceTree = "<group>"; };
+		E179160F21557D3E0028E8A4 /* EventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
+		E17916112155816F0028E8A4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		E1A333AC2155565100F0A639 /* GlendaleHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlendaleHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A333AF2155565100F0A639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A333B42155565100F0A639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +58,6 @@
 				2E26DC17D6184C5EA2D3F31D /* Pods-GlendaleHackathon.debug.xcconfig */,
 				130C50D80DC37D0A4B2F6BFF /* Pods-GlendaleHackathon.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,41 @@
 				59590C6406A3D0298E129B70 /* Pods_GlendaleHackathon.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1791607215572A40028E8A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E179160A215572D40028E8A4 /* PSA.swift */,
+				E179160F21557D3E0028E8A4 /* EventsCell.swift */,
+				E17916112155816F0028E8A4 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1791608215572AF0028E8A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1A333C72155640500F0A639 /* EventsViewController.swift */,
+				E1A333C5215563E600F0A639 /* ContactUsViewController.swift */,
+				E1A333C32155612400F0A639 /* GlendaleMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1791609215572BB0028E8A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E179160C215573C90028E8A4 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				E179160D215574100028E8A4 /* Extra.swift */,
+			);
+			path = Extras;
 			sourceTree = "<group>";
 		};
 		E1A333A32155565100F0A639 = {
@@ -83,11 +125,12 @@
 		E1A333AE2155565100F0A639 /* GlendaleHackathon */ = {
 			isa = PBXGroup;
 			children = (
-				E1A333C72155640500F0A639 /* EventsViewController.swift */,
-				E1A333C5215563E600F0A639 /* ContactUsViewController.swift */,
+				E179160C215573C90028E8A4 /* Extras */,
+				E1791609215572BB0028E8A4 /* View */,
+				E1791608215572AF0028E8A4 /* Controller */,
+				E1791607215572A40028E8A4 /* Model */,
 				E1A333AF2155565100F0A639 /* AppDelegate.swift */,
 				E1A333B32155565100F0A639 /* Main.storyboard */,
-				E1A333C32155612400F0A639 /* GlendaleMainViewController.swift */,
 				E1A333B62155565400F0A639 /* Assets.xcassets */,
 				E1A333B82155565400F0A639 /* LaunchScreen.storyboard */,
 				E1A333BB2155565400F0A639 /* Info.plist */,
@@ -218,6 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A333B02155565100F0A639 /* AppDelegate.swift in Sources */,
+				E179160B215572D40028E8A4 /* PSA.swift in Sources */,
+				E179160E215574100028E8A4 /* Extra.swift in Sources */,
+				E179161021557D3E0028E8A4 /* EventsCell.swift in Sources */,
+				E17916122155816F0028E8A4 /* Event.swift in Sources */,
 				E1A333C82155640500F0A639 /* EventsViewController.swift in Sources */,
 				E1A333C42155612400F0A639 /* GlendaleMainViewController.swift in Sources */,
 				E1A333C6215563E600F0A639 /* ContactUsViewController.swift in Sources */,
