@@ -103,7 +103,6 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Feedback" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jh7-US-9b9">
                                 <rect key="frame" x="38" y="143" width="299" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -115,7 +114,9 @@
                                 <rect key="frame" x="149" y="304" width="76" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Send Email"/>
+                                <state key="normal" title="Send Email">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="sendEmail:" destination="zPD-OS-ryO" eventType="touchUpInside" id="q8Z-PL-sQ6"/>
                                     <action selector="sendEmail:" destination="ciN-eb-nEW" eventType="touchUpInside" id="qFb-d5-KWB"/>

@@ -28,7 +28,7 @@ class ContactUsViewController: UIViewController, MFMailComposeViewControllerDele
     func configureMailComposer() -> MFMailComposeViewController{
         let mailComposeVC = MFMailComposeViewController()
         mailComposeVC.mailComposeDelegate = self
-        mailComposeVC.setToRecipients(["support@glendalecityhall"])
+        mailComposeVC.setToRecipients(["support@glendalecityhall.com"])
         mailComposeVC.setSubject("Feedback")
         mailComposeVC.setMessageBody(self.questionTextField.text!, isHTML: false)
         return mailComposeVC
